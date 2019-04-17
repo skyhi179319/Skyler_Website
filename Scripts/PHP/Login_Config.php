@@ -1,18 +1,22 @@
 <?php
-$Username = $_POST["Username"];
-$Username_Valid = skyler;
-$Password = $_POST["Password"];
-$Password_Valid = skyler;
-function Main_Login(){
-    $Username = $_POST["Username"];
-    $Username_Valid = skyler;
-    $Password = $_POST["Password"];
-    $Password_Valid = skyler;
-    if($Username = $Username_Valid and $Password = $Password_Valid) {
-        header("Location: http://localhost:3001/Pages/Home/Main_Page.php");
-    }
-    else{
-        header("Location: http://localhost:3001/Main_Login.php");
-    }
+$Username_Main_Login = $_POST["Username_Main_Login"];
+$Username_Main_Login_Valid = "skyler";
+$Password_Main_Login = $_POST["Password_Main_Login"];
+$Password_Main_Login_Valid = "skyler";
+$Username_Admin_Login = $_POST["Username_Admin_Login"];
+$Username_Admin_Login_Valid = "Admin";
+$Password_Admin_Login = $_POST["Password_Admin_Login"];
+$Password_Admin_Login_Valid = "Admin";
+if($Username_Main_Login = $Username_Main_Login_Valid and $Password_Main_Login = $Password_Main_Login_Valid) {
+    header("Location: http://localhost:3306/Pages/Home/Main_Page.php");
+}
+else{
+    header("Location: http://localhost:3306/Main_Login.php");
+}
+if($Username_Admin_Login = $Username_Admin_Login_Valid and $Password_Admin_Login = $Password_Admin_Login_Valid) {
+    header("Location: http://localhost:3306/Pages/Admin/Main_Admin_Page.php");
+}
+else{
+    header("Location: http://localhost:3306/Pages/Admin/Admin_Login.php");
 }
 ?>

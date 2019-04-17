@@ -5,7 +5,7 @@
 <link rel="icon" href="http://localhost:3306/Server/Icon.png">
 </head>
 <body class="Main_Login_Body">
-<form name="loginForm" method="POST" action="http://localhost:3306/Main_Login_Config.php">
+<form name="loginForm" method="POST" action="http://localhost:3306/Scripts/PHP/Login_Config.php">
 <table class="Main_Login_Table" width="20%" align="center">
 
 <tr>

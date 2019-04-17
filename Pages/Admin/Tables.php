@@ -75,23 +75,6 @@
     </div>
 </div>
 <div>
-<?php
-$connectionInfo = array("UID" => "skyhi179319@skyler", "pwd" => "skyler179319!", "Database" => "website", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
-$serverName = "jdbc:sqlserver://skyler.database.windows.net :1433;database=website";
-$conn = mysqli_connect($serverName, $connectionInfo);
-
-// Create connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-else{
-    printf("Client library version: %s\n", mysqli_get_client_info($conn));
-    echo "<br>";
-    print_r("Client library version: %s\n",mysqli_get_connection_stats($conn));
-    echo "<br>";
-    mysqli_close($conn);
-}
-?>
 </div>
 </body>
 </html>

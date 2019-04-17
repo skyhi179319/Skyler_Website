@@ -70,7 +70,7 @@
 <div class="subnav">
 <button class="subnavbtn">Admin</button>
 <div class="subnav-content">
-<a href="http://localhost:3306/Pages/Admin/Main_Admin_Page.php">ADMIN PAGE</a>
+<a href="http://localhost:3306/Pages/Admin/Admin_Login.php">ADMIN LOGIN</a>
 </div>
 </div>
 </div>
