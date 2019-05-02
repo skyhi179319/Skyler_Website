@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>HOME</title>
+<script src="http://localhost:3306/Scripts/JS/Main.js"></script>
+<link rel="stylesheet" href="http://localhost:3306/Scripts/CSS/Main.css">
+<link rel="icon" href="http://localhost:3306/Server/Icon.png">
+</head>
+<body class="Home_Page_Body">
+<div class="navbar">
+    <a href="#home">Home</a>
+    <div class="subnav">
+        <button class="subnavbtn">Admin</button>
+        <div class="subnav-content">
+            <a href="http://localhost:3306/Pages/Admin/Admin_Login.php">ADMIN LOGIN</a>
+        </div>
+    </div>    
+    <div class="subnav">
+        <button class="subnavbtn">Games</button>
+        <div class="subnav-content">
+            <a href="http://localhost:3306/Pages/Games/Games_Page.php">Move Around</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

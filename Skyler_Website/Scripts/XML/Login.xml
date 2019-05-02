@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login>
+<Users>
+<Username>skyler</Username>
+<Password>skyler</Password>
+<Location>Main Login Page</Location>
+</Users>
+<Users>
+<Username>Admin</Username>
+<Password>Admin</Password>
+<Location>Admin Login</Location>
+</Users>
+</login>
