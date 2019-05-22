@@ -124,10 +124,7 @@
 .Game_Page{
     background-color: burlywood;
 }
-#mycanvas{
-    border:1px solid red;
-}
-.canvas{
-    width: 150px;
-    Height: 250px;
+.Canvas_Button{
+    background-color: goldenrod;
+    border-radius: 16px;
 }

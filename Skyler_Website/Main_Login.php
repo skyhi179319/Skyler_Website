@@ -25,12 +25,24 @@
 
 <tr>
 <td ><input type="Reset"></td>
-<td><input type="submit"></td>
+<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
 </tr>
 
 </table>
-<canvas>
+<script>
+function check(form)
+{
 
-</canvas>
+if(form.Username_Main_Login.value == "Skyler" && form.Password_Main_Login.value == "Skyler")
+{
+	return true;
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
 </body>
 </html>

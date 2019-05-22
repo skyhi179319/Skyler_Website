@@ -1,13 +1,12 @@
-function check(form)
-{
-
-if(form.Username_Main_Login.value == "Skyler" && form.Password_Main_Login.value == "Skyler")
-{
-	return true;
-}
-else
-{
-	alert("Error Password or Username")
-	return false;
-}
-}
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();
+ctx.moveTo(200,0);
+ctx.lineTo(-200,200);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.fillStyle = "#deb887";
